@@ -1,6 +1,14 @@
 <template>
   <h1>Nostr x Passkeys</h1>
 
+  <div>
+    <a href="https://github.com/Dolu89/nostr-passkeys-demo">Github</a>
+    <p>
+      This is a demo of Nostr x Passkeys. It uses Passkeys to authenticate and
+      deterministically generate a Nostr account.
+    </p>
+  </div>
+
   <h2>Step 1 - Register</h2>
   <button @click="handleRegister">Create a Passkey</button>
 
