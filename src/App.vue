@@ -20,7 +20,6 @@ import {
   auth,
 } from "@lo-fi/webauthn-local-client";
 import { onMounted } from "vue";
-import "@lo-fi/local-vault/adapter/idb";
 import { privateKeyFromSeedWords } from "nostr-tools/nip06";
 import * as nip19 from "nostr-tools/nip19";
 import * as bip39 from "@scure/bip39";
